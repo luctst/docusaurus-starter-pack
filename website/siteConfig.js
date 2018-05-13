@@ -1,13 +1,3 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-// See https://docusaurus.io/docs/site-config.html for all the possible
-// site configuration options.
-
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
@@ -21,9 +11,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com' /* your website url */,
+  title: 'Enter your title here' /* title for your website */,
+  tagline: 'Enter your sub-title here',
+  url: '' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -39,28 +29,30 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {languages: true},
+    {href: '', label: 'Github', external: true}, // Enter url in href field of your repo
+    {search: true}
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
+  // headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#CCC',
+    secondaryColor: '#EEE',
   },
 
   /* custom fonts for website */
   /*fonts: {
     myFont: [
+      "Avenir",
       "Times New Roman",
       "Serif"
     ],
@@ -71,10 +63,7 @@ const siteConfig = {
   },*/
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Your Name or Your Company Name',
+  copyright: 'Copyright © ' + new Date().getFullYear() +' Tostée Lucas',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
