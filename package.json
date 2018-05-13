@@ -18,7 +18,5 @@
   },
   "homepage": "https://github.com/luctst/docusaurus-starter-pack#readme",
   "dependencies": {},
-  "devDependencies": {
-    "docusaurus": "^1.0.15"
-  }
+  "devDependencies": {}
 }
