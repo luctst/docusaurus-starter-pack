@@ -4,7 +4,7 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    // image: '/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -20,8 +20,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: '',
+  organizationName: '',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -41,7 +41,7 @@ const siteConfig = {
   /* path to images for header/footer */
   // headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  // favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
@@ -63,7 +63,7 @@ const siteConfig = {
   },*/
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright: 'Copyright © ' + new Date().getFullYear() +' Tostée Lucas',
+  copyright: 'Copyright © ' + new Date().getFullYear() +' ',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
@@ -77,8 +77,8 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: '',
+  twitterImage: '',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

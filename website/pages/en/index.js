@@ -76,7 +76,7 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('docusaurus.svg')} /> {/* Ajoutez votre image pour la ligne de flottaison, assurez de l'avoir dans le dossier static/ img */}
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -95,7 +95,7 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
+    <GridBlock align="left" contents={props.children} layout={props.layout} />
   </Container>
 );
 
@@ -131,10 +131,10 @@ const LearnHow = props => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
+        content: 'Enter your text who describe the first feature talk about learning how to use this',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'First feature',
       },
     ]}
   </Block>
@@ -144,10 +144,10 @@ const TryOut = props => (
   <Block id="try">
     {[
       {
-        content: 'Talk about trying this out',
+        content: 'Enter your text who describe the second feature talk about learning how to use this',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'Second feature',
       },
     ]}
   </Block>
@@ -157,10 +157,10 @@ const Description = props => (
   <Block background="dark">
     {[
       {
-        content: 'This is another description of how this project is useful',
+        content: 'Enter your text who describe the thid feature talk about learning how to use this',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
-        title: 'Description',
+        title: 'Third feature',
       },
     ]}
   </Block>
@@ -208,7 +208,7 @@ class Index extends React.Component {
           <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
-          <Description />
+          {/* <Description /> */}
           {/* <Showcase language={language} /> */}
         </div>
       </div>
