@@ -19,8 +19,12 @@ Fork this repo to create your own version. Or use git clone to have this stater 
 
 
 ## Contributing
-Please read our contributing files in our [.github](https://github.com/luctst/docusaurus-starter-pack/tree/master/.github) folder.
+Please read our contributing files in our [.github](https://github.com/luctst/docusaurus-starter-pack/tree/master/.github) folder for details on our code of conduct, and the process for submitting pull requests to us.
 
 
 ## Authors
 - **Tostée Lucas** - Follow him on [Twitter](https://twitter.com/ltostee), personal website [Tostée lucas](https://www.lucas-tostee.com)
+
+
+## Licence
+This project is licensed under the MIT licence, see the [LICENCE](https://github.com/luctst/docusaurus-starter-pack/blob/master/LICENSE) for details.
