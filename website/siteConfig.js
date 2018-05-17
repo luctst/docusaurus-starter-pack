@@ -80,7 +80,7 @@ const siteConfig = {
   ogImage: '',
   twitterImage: '',
 
-    repoUrl: 'https://github.com/facebook/test-site', // Enter the link of your repo url.
+  repoUrl: 'https://github.com/luctst/docusaurus-starter-pack', // Enter the link of your repo url.
 };
 
 module.exports = siteConfig;
