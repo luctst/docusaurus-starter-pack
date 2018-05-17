@@ -15,7 +15,8 @@ Fork this repo to create your own version. Or use git clone to have this stater 
 > You must have at least node 6.x
 
 ## Getting started
-
+Check the documentation [here](https://luctst.github.io/docusaurus-starter-pack/) and start to build you own website documentation.
+> **Note:** This website himsel is powered by docusaurus and hosted by github pages.
 
 
 ## Contributing
