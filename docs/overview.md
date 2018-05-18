@@ -8,6 +8,7 @@ This project was created to be easily used and quickly online, is powered by doc
 
 ## Structure
 After install your project should be like that:
+```
 root-of-repo
 ├── docs
 │   ├── doc1.md
@@ -30,6 +31,7 @@ root-of-repo
 │   │   └── img
 │   │      └── favicon
 │   │      └── docusaurus.png
+```
 - **docs** - include all your documentation file.
 - **website** - this folder represent the file who run your website.
   - **blog** - this folder should be empty in our starter-pack we don't include blog, however you can check [this page](https://docusaurus.io/docs/en/blog.html) to know how to add a blog in your website.
