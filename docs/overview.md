@@ -44,3 +44,14 @@ root-of-repo
 - **package-lock, package.json** - files npm need to work.
 - **sidebars.json** - Json file who generate content in sidebar pages.
 - **siteConfig.js** - files who handle the website.
+
+
+## Launch your site
+To see your website you have to:
+````
+cd website
+npm start
+````
+This commands tells to your computer to run a server on port 3000, copy and paste in your browser the URL written in your terminal and your website should be alives :)
+Every time you made changes on your website you have to turn off the server and reload him to see your changes alives.
+> **Note:**  To properly use docusaurus we admit that you have a minimum knowledges with CLI.
