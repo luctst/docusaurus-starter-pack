@@ -7,8 +7,29 @@ This project was created to be easily used and quickly online, is powered by doc
 
 
 ## Structure
-After instal your project should be like that:
-![Structure du projet](../static/img/carbon.png)
+After install your project should be like that:
+root-of-repo
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   ├── exampledoc4.md
+│   └── exampledoc5.md
+├── website
+│   ├── blog
+│   ├── core
+│   │   └── Footer.js
+│   ├── node_modules
+│   ├── package.json
+│   ├── pages
+│   ├── sidebars.json
+│   ├── siteConfig.js
+│   ├── static
+│   │   └── css
+│   │      └── custom.css
+│   │   └── img
+│   │      └── favicon
+│   │      └── docusaurus.png
 - **docs** - include all your documentation file.
 - **website** - this folder represent the file who run your website.
   - **blog** - this folder should be empty in our starter-pack we don't include blog, however you can check [this page](https://docusaurus.io/docs/en/blog.html) to know how to add a blog in your website.
