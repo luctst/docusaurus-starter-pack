@@ -4,7 +4,7 @@
 
 ## Features
 - **Powered by ReactJs** - docusaurus is written in ReactJs and maintained by Facebook.
-- **Ready to start** - this repo was created to be simple to use, by thiw way you can have a full static website ready for internet.
+- **Ready to start** - this repo was created to be simple to use, by this way you can have a full static website ready for internet in just a few minutes.
 - **Design ready** - By default docusaurus bring some simple design who can be sufficient, but you can easily change some components as you want.
 
 
