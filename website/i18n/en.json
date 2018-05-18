@@ -4,19 +4,13 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Enter your sub-title here",
-    "doc1": "Latin-ish",
-    "Example Page": "Example Page",
-    "doc2": "document number 2",
-    "doc3": "This is document number 3",
-    "doc6": "Bonjour je teste",
-    "doc4": "Other Document",
-    "doc5": "Fifth Document",
+    "overview": "Getting started",
+    "Overview": "Overview",
     "Docs": "Docs",
     "Help": "Help",
     "Github": "Github",
-    "Docusaurus": "Docusaurus",
-    "First Category": "First Category",
-    "Second Category": "Second Category"
+    "Settup": "Settup",
+    "First Category": "First Category"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
