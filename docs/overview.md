@@ -52,6 +52,10 @@ To see your website you have to:
 cd website
 npm start
 ````
-This commands tells to your computer to run a server on port 3000, copy and paste in your browser the URL written in your terminal and your website should be alives :)
-Every time you made changes on your website you have to turn off the server and reload him to see your changes alives.
-> **Note:**  To properly use docusaurus we admit that you have a minimum knowledges with CLI.
+This commands tells to your computer to run a server on port 3000, copy and paste in your browser the URL written in your terminal and your website should be alive :)
+Every time you made changes on your website you have to turn off the server and reload him to see your changes alive.
+> **Note:**  To properly use docusaurus we admit that you have a minimum knowledge's with CLI.
+
+
+## Currents errors 
+> **Note:** Please fell free to add an issue in the [Github repo](https://github.com/luctst/docusaurus-starter-pack) if you have any problem..
