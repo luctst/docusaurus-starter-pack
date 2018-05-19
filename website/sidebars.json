@@ -1,9 +1,6 @@
 {
-  "docs": {
-    "Setup": ["Overview"],
-    "Guide": ["Header"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "Docs": {
+    "Setup": ["overview"],
+    "Guide": ["header"]
   }
 }

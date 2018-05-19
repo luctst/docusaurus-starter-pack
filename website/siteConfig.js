@@ -11,7 +11,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Enter your title here' /* title for your website */,
+  title: 'docusaurus starter pack' /* title for your website */,
   tagline: 'Enter your sub-title here',
   url: '' /* your website url */,
   baseUrl: '/' /* base url for your project */,

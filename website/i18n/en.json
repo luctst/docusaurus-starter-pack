@@ -4,13 +4,14 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Enter your sub-title here",
+    "header": "header",
     "overview": "Getting started",
     "Overview": "Overview",
     "Docs": "Docs",
     "Help": "Help",
     "Github": "Github",
     "Setup": "Setup",
-    "First Category": "First Category"
+    "Guide": "Guide"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

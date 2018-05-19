@@ -3,7 +3,7 @@ id: overview
 title: Getting started
 sidebar_label: Overview
 ---
-This project was created to be easily used and quickly online, is powered by docusaurus and maintained by Facebook. This documentation provides quick and easy documentation to launch your static site as quickly as possible, it implies that you adhere to the custom structure know in any case that you can modify, add as you wish the pages but you will have to read the official documentation of docusaurus [https://www.docusaurus.com](https://www.docusaurus.com).
+This project was created to be easily used and quickly online, is powered by docusaurus and maintained by Facebook. This documentation provides quick and easy process to launch your static site as quickly as possible, it implies that you adhere to the custom structure know in any case that you can modify, add as you wish the pages but you will have to read the official documentation of docusaurus [https://www.docusaurus.com](https://www.docusaurus.com) to do that.
 
 
 ## Structure
