@@ -31,4 +31,5 @@ headerLinks: [
     {href: 'URL of your repo', label: 'Github'}
 ]
 ```
-The content of the href property by your URL repo.
+The content of the `href` property by your URL repo.
+> **Note:** It's possible to add, modify and change the content of this navigation, check the [official documentation](https://www.docusaurus.com) to customize your navigation.
