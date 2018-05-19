@@ -31,7 +31,7 @@ const siteConfig = {
     {doc: 'overview', label: 'Docs'},
     {page: 'help', label: 'Help'},
     {languages: true},
-    {href: '', label: 'Github', external: true}, // Enter url in href field of your repo
+    { href: 'https://github.com/luctst/docusaurus-starter-pack', label: 'Github', external: true}, // Enter url in href field of your repo
     {search: true}
   ],
 
