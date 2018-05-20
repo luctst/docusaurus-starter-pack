@@ -84,3 +84,7 @@ const TryOut = props => (
   </Block>
 );
 ```
+
+
+## Currents errors 
+> **Note:** Please fell free to add an issue in the [Github repo](https://github.com/luctst/docusaurus-starter-pack) if you have any problem..
