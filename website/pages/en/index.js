@@ -131,10 +131,10 @@ const LearnHow = props => (
   <Block background="light">
     {[
       {
-        content: 'Enter your text who describe the first feature talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Docusaurus starter pack allow you to launch your static website simply and quickly.',
+        image: imgUrl('chrome_sublime.png'),
         imageAlign: 'right',
-        title: 'First feature',
+        title: 'Quick setup',
       },
     ]}
   </Block>
@@ -144,10 +144,10 @@ const TryOut = props => (
   <Block id="try">
     {[
       {
-        content: 'Enter your text who describe the second feature talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        content: 'This project use the same feature than the docusaurus project (versioning, translation, search etc..) but you don\'t have to read all the official documentation, get your operational website in just a few minutes.',
+        image: imgUrl('features_icons.png'),
         imageAlign: 'left',
-        title: 'Second feature',
+        title: 'Repo feature',
       },
     ]}
   </Block>

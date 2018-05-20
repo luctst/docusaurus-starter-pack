@@ -47,3 +47,40 @@ To customize the buttons repeat the same process than above with some changes:
 - **First button:** - Identify his location in the component and change the name of the file in the href attribute, `<Button href={docUrl('overview.html',language) }>Get started</Button>` don't forget to change the content of the button.
 > **Note:** When you change the name of the file don't delete the .html extension or it won't work.
 - **Second button** - Repeat the same process than the first button but this time we want redirect to an external link so you have to delete the `docUrl` function in the href attribute.
+
+
+## First section
+To change the content and the image of this section identify the component `<LearnHow>` in the `index.js` file:
+```
+const LearnHow = props => (
+  <Block background="light">
+    {[
+      {
+        content: 'Enter your text who describe the first feature talk about learning how to use this',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'right',
+        title: 'First feature',
+      },
+    ]}
+  </Block>
+);
+```
+To change the title add a custom content in the `title` property, do the same for the `content` property.   For the image don't forget to add your image in the `static/img/` folder and change the source of the `image`.
+
+
+## Second section
+Follow the same process than above to change the content of the second section except than you have to find the `<TryOut>` component:
+```
+const TryOut = props => (
+  <Block id="try">
+    {[
+      {
+        content: 'Enter your text who describe the second feature talk about learning how to use this',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'left',
+        title: 'Second feature',
+      },
+    ]}
+  </Block>
+);
+```
