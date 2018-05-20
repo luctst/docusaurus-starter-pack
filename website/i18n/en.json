@@ -3,16 +3,19 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Enter your sub-title here",
+    "tagline": "A starter pack for docusaurus project.",
     "header": "Configure your header",
     "Header": "Header",
+    "homepage": "Configure your homepage",
+    "Homepage": "Homepage",
     "overview": "Getting started",
     "Overview": "Overview",
     "Docs": "Docs",
     "Help": "Help",
     "Github": "Github",
     "Setup": "Setup",
-    "Guide": "Guide"
+    "Guide": "Guide",
+    "Mémos": "Mémos"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

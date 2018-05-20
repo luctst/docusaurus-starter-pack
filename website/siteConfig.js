@@ -12,7 +12,7 @@ const users = [
 
 const siteConfig = {
   title: 'docusaurus starter pack' /* title for your website */,
-  tagline: 'Enter your sub-title here',
+  tagline: 'A starter pack for docusaurus project.',
   url: '' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
