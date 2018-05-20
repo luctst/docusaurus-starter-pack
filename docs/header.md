@@ -8,7 +8,7 @@ The header contains the link of your navigation menu and the title of your proje
 
 ## Title of your project
 To change the name of your project you have to go in the **siteConfig.js** files at the lines 14:
-```
+```js
 const siteConfig  {
     title: 'Enter the name of your project here'
 }
@@ -19,7 +19,7 @@ and change the content in the `title` property.
 ## Links in navigation
 ### Menu
 Those links allow you to navigate between the different pages of your website, to change the direction in the `Docs` link simply change in the **siteConfig.js** file:
-```
+```js
 headerLinks: [
     {doc: 'name of a page in your docs folder', label: 'Docs'},
 ]
@@ -27,7 +27,7 @@ headerLinks: [
 The content of the `doc` property.
 
 This structure contains a link to your github repo, simply change:
-```
+```js
 headerLinks: [
     {href: 'URL of your repo', label: 'Github'}
 ]
@@ -40,7 +40,7 @@ The content of the `href` property by your URL repo.
 
 ## Change the style
 You can change the `background-color` of your header in the **siteConfig.js** file:
-```
+```js
 colors: {
     primaryColor: 'Enter RGBA, Hexadecimal, HSLA etc..'
 }

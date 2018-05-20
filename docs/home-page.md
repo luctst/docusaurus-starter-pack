@@ -10,7 +10,7 @@ Every pages with docusaurus are create with ReactJs so it's better if you alread
 ## Float line
 ### Title
 To change the main title and the sub-title of your landing pages you should changes in the **siteConfig.js** file:
-```
+```js
 const siteConfig = {
     title: 'Title of your project',
     tagline: 'Sub-title of your project'
@@ -21,7 +21,7 @@ The content of the `title` and the `tagline`property.
 To change the image of your float line section you first need to:
 - Add your image in the `static/img/` folder.
 - Go to the **index.js** file in `pages/en/index.js`:
-```
+```js
 class HomeSplash extends React.Component {
   render() {
     let language = this.props.language || '';
@@ -51,7 +51,7 @@ To customize the buttons repeat the same process than above with some changes:
 
 ## First section
 To change the content and the image of this section identify the component `<LearnHow>` in the `index.js` file:
-```
+```js
 const LearnHow = props => (
   <Block background="light">
     {[
@@ -70,7 +70,7 @@ To change the title add a custom content in the `title` property, do the same fo
 
 ## Second section
 Follow the same process than above to change the content of the second section except than you have to find the `<TryOut>` component:
-```
+```js
 const TryOut = props => (
   <Block id="try">
     {[

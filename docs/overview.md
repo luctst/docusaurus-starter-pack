@@ -8,7 +8,7 @@ This project was created to be easily used and quickly online, is powered by doc
 
 ## Structure
 After install your project should be like that:
-```
+```bash
 root-of-repo
 ├── docs
 │   ├── doc1.md
@@ -48,12 +48,13 @@ root-of-repo
 
 ## Launch your site
 To see your website you have to:
-````
+````bash
 cd website
 npm start
 ````
 This commands tells to your computer to run a server on port 3000, copy and paste in your browser the URL written in your terminal and your website should be alive :)
-Every time you made changes on your website you have to turn off the server and reload him to see your changes alive.
+
+Every time you made changes on your website simply reload your page to see your changes, if you create a new page of folder or everything else you have to turn off your server and reload him to see changes.
 > **Note:**  To properly use docusaurus we admit that you have a minimum knowledge's with CLI.
 
 
