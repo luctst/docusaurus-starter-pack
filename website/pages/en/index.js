@@ -132,7 +132,7 @@ const LearnHow = props => (
     {[
       {
         content: 'Docusaurus starter pack allow you to launch your static website simply and quickly.',
-        image: imgUrl('chrome_sublime.png'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Quick setup',
       },
@@ -145,7 +145,7 @@ const TryOut = props => (
     {[
       {
         content: 'This project use the same feature than the docusaurus project (versioning, translation, search etc..) but you don\'t have to read all the official documentation, get your operational website in just a few minutes.',
-        image: imgUrl('features_icons.png'),
+        image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
         title: 'Repo feature',
       },

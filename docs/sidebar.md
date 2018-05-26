@@ -42,3 +42,9 @@ In the above example, we have three categories:
 
 
 ## Right sidebar
+The right sidebar in docusaurus is automatically generated via your markdown tag, use it for organize your content for a better understanding:
+
+- The `##` tag generate an anchor and a `h2` HTML tag.
+- The `###` tag generate and anchor and a `h3` HTML tag who can be nested.
+
+> **Note:** the `h4`, `h5` and more don't generate title in the right sidebar.
