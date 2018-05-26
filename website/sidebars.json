@@ -1,7 +1,7 @@
 {
   "Docs": {
     "Setup": ["overview"],
-    "Guide": ["header", "homepage", "doc", "sidebar"],
+    "Guide": ["header", "homepage", "doc", "sidebar", "footer"],
     "Mémos": [""]
   }
 }

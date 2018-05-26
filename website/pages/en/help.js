@@ -23,18 +23,18 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content: `Learn more using the [documentation on this site.](${docUrl(
-          'doc1.html',
+          'overview.html',
           language
         )})`,
         title: 'Browse Docs',
       },
       {
-        content: 'Ask questions about the documentation and project',
-        title: 'Join the community',
+        content: 'You can ask your question on my twitter [Tostée Lucas](https://www.twitter.com/ltostee)',
+        title: 'Ask on Twitter',
       },
       {
-        content: "Find out what's new with this project",
-        title: 'Stay up to date',
+        content: "Any specific question about code open an issue or a pull request on [the Github repo](https://github.com/luctst/docusaurus-starter-pack)",
+        title: 'Github repo',
       },
     ];
 
@@ -45,7 +45,7 @@ class Help extends React.Component {
             <header className="postHeader">
               <h2>Need help?</h2>
             </header>
-            <p>This project is maintained by a dedicated group of people.</p>
+            <p>If you need help or you have a specific question check this source below</p>
             <GridBlock contents={supportLinks} layout="threeColumn" />
           </div>
         </Container>

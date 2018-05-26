@@ -35,18 +35,21 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}></a>
+            <a href={this.docUrl('overview.html', this.props.language)}>Introduction</a>
             <a href={this.docUrl('doc2.html', this.props.language)}></a>
             <a href={this.docUrl('doc3.html', this.props.language)}></a>
           </div>
           <div>
             <h5>Community</h5>
+            <a href="https://github.com/">GitHub</a>
+            <a className="github-button" href={this.props.config.repoUrl} data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count={true} data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star
+            </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/">GitHub</a>
-            <a className="github-button" href={this.props.config.repoUrl} data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count={true}data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star
-            </a>
+            <a href="https://www.twitter.com/ltostee">Twitter</a>
+            <a href="https://github.com/luctst">Github</a>
+            <a href="https://www.lucas-tostee.com">Lucas Tostée</a>
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>
