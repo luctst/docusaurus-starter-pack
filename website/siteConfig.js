@@ -13,14 +13,14 @@ const users = [
 const siteConfig = {
   title: 'docusaurus starter pack' /* title for your website */,
   tagline: 'A starter pack for docusaurus project.',
-  url: 'https://www.luctst.github.io' /* your website url */,
+  url: 'https://luctst.github.io' /* your website url */,
   baseUrl: '/docusaurus-starter-pack/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://your-name.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "docusaurus-starter-pack",
+  projectName: "https://luctst.github.io",
   organizationName: "luctst",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
