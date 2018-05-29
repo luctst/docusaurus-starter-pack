@@ -5,7 +5,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     // image: '/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://www.lucas-tostee.com',
     pinned: true,
   },
 ];
@@ -13,8 +13,8 @@ const users = [
 const siteConfig = {
   title: 'docusaurus starter pack' /* title for your website */,
   tagline: 'A starter pack for docusaurus project.',
-  url: '' /* your website url */,
-  baseUrl: '' /* base url for your project */,
+  url: 'https://luctst.github.io' /* your website url */,
+  baseUrl: '/docusaurus-starter-pack/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://your-name.github.io',
   //   baseUrl: '/test-site/',

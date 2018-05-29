@@ -10,6 +10,8 @@
     "Customize your footer": "Customize your footer",
     "header": "Configure your header",
     "Header": "Header",
+    "help": "Customize your help page",
+    "Help page": "Help page",
     "homepage": "Configure your homepage",
     "Homepage": "Homepage",
     "overview": "Getting started",
@@ -21,7 +23,7 @@
     "Github": "Github",
     "Setup": "Setup",
     "Guide": "Guide",
-    "Mémos": "Mémos"
+    "Memos": "Memos"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
