@@ -2,6 +2,6 @@
   "Docs": {
     "Setup": ["overview"],
     "Guide": ["header", "homepage", "doc", "sidebar","help", "footer"],
-    "Memos": ["siteconfig"]
+    "Memos": ["siteconfig", "css"]
   }
 }

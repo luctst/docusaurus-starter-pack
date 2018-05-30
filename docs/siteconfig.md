@@ -41,3 +41,6 @@ This array contains the bulk of the configuration of the website:
 `ogImage` , `twitterImage`  image shows when share this project in social medias.
 
 `repoUrl` the url of your repo.
+
+## Currents errors 
+> **Note:** Please fell free to add an issue in the [Github repo](https://github.com/luctst/docusaurus-starter-pack) if you have any problem..
