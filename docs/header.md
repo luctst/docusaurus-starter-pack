@@ -35,6 +35,22 @@ headerLinks: [
 The content of the `href` property by your URL repo.
 > **Note:** It's possible to add, modify and change the content of this navigation, check the [official documentation](https://docusaurus.io/docs/en/navigation.html#additions-to-the-site-navigation-bar) to customize your navigation.
 ### Search bar
+Docusaurus supports Search with Algolia to quickly find the content that you want, to do that it's really simple submit your website URL to this address and follow the instructions. [Start with Algolia](https://community.algolia.com/docsearch/) .
+
+After submit you should receive an email with some information's to enter in your `siteConfig.js` file:
+```js
+const siteConfig = {
+    ...
+    algolia: {
+        apiKey: 'my-api-key',
+        indexName: 'my-index-name',
+        algoliaOptions: {} // This is optional
+    }
+} 
+```
+
+From now everything should be good except that your search bar is not display in your navigation menu. To correct that add in the `headerLinks` array the following instruction's `{search: true}`.
+
 ### Language 
 
 
