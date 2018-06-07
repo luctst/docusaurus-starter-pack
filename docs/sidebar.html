@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Configure your sidebar · docusaurus starter pack</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Configure your sidebar · docusaurus starter pack"/><meta property="og:type" content="website"/><meta property="og:url" content="https://luctst.github.io/docusaurus-starter-pack/index.html"/><meta property="og:description" content="After having created your docs you may want this will be associated to the link in the navigation, by default the sidebar is initialized with the `docs`, you can customize your sidebar by modify the **sidebars.json** file."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/docusaurus-starter-pack/img/docusaurus.svg"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/docusaurus-starter-pack/css/main.css"/></head><body class="sideNavVisible doc separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus-starter-pack/"><h2 class="headerTitle">docusaurus starter pack</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus-starter-pack/docs/overview.html" target="_self">Docs</a></li><li class=""><a href="/docusaurus-starter-pack/en/help.html" target="_self">Help</a></li><li class=""><a href="https://github.com/luctst/docusaurus-starter-pack" target="_blank">Github</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Guide</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Setup</h3><ul><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/overview.html">Overview</a></li></ul></div><div class="navGroup navGroupActive"><h3>Guide</h3><ul><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/header.html">Header</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/homepage.html">Homepage</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/doc.html">Start your documentation</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/docusaurus-starter-pack/docs/sidebar.html">Configure your sidebar</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/help.html">Help page</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/footer.html">Customize your footer</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/publish.html">Publishing your site</a></li></ul></div><div class="navGroup navGroupActive"><h3>Memos</h3><ul><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/siteconfig.html">siteConfig.js</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-starter-pack/docs/css.html">Add css</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>Configure your sidebar</h1></header><article><div><span><p>After having created your docs you may want this will be associated to the link in the navigation, by default the sidebar is initialized with the <code>docs</code>, you can customize your sidebar by modify the <strong>sidebars.json</strong> file.</p>
+<h2><a class="anchor" aria-hidden="true" id="customize-your-sidebar"></a><a href="#customize-your-sidebar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customize your sidebar</h2>
+<p>Sidebar in docusaurus contains two part the first one is category and the second is link in category.</p>
+<h3><a class="anchor" aria-hidden="true" id="category"></a><a href="#category" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Category</h3>
+<p>To change, add, delete or do what you want in your sidebar category open the <strong>sidebars.json</strong> file:</p>
+<pre><code class="hljs css json">{
+  "Docs": {
+    "Setup": ["overview"],
+    "Guide": ["header", "homepage", "doc", "sidebar"],
+    "Mémos": [""],
+    ...: [""],
+  },
+  ...: {
+
+  }
+}
+</code></pre>
+<p>and replace the <code>Setup</code>, <code>Guide</code> property by your category name, it's also possible to add more category by create a new property (array).</p>
+<h3><a class="anchor" aria-hidden="true" id="links"></a><a href="#links" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Links</h3>
+<p>To create links in your category sidebar you have to use the <code>id</code> field of your file:</p>
+<pre><code class="hljs css json">{
+  "Docs": {
+    "Setup": ["overview"],
+    "Guide": ["header", "homepage", "doc", "sidebar"],
+    "Mémos": [""],
+    ...: [""],
+  }
+}
+</code></pre>
+<p>In the above example, we have three categories:</p>
+<ol>
+<li>The <code>setup</code> category contains one link (overview) who represent the <code>overview.md</code> file with <code>id</code> equal to overview.</li>
+<li>Repeat the process as much as you want to create links. If you want add many links in one category simply add elements in the array of your category.</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="right-sidebar"></a><a href="#right-sidebar" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Right sidebar</h2>
+<p>The right sidebar in docusaurus is automatically generated via your markdown tag, use it for organize your content for a better understanding:</p>
+<ul>
+<li>The <code>##</code> tag generate an anchor and a <code>h2</code> HTML tag.</li>
+<li>The <code>###</code> tag generate and anchor and a <code>h3</code> HTML tag who can be nested.</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> the <code>h4</code>, <code>h5</code> and more don't generate title in the right sidebar.</p>
+</blockquote>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="doc.html">← Create your documentation</a><a class="docs-next button" href="help.html">Customize your help page →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#customize-your-sidebar">Customize your sidebar</a><ul class="toc-headings"><li><a href="#category">Category</a></li><li><a href="#links">Links</a></li></ul></li><li><a href="#right-sidebar">Right sidebar</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docusaurus-starter-pack/" class="nav-home"><img src="/docusaurus-starter-pack/img/docusaurus.svg" alt="docusaurus starter pack" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docusaurus-starter-pack/docs/en/overview.html">Introduction</a></div><div><h5>Community</h5><a href="https://github.com/luctst/docusaurus-starter-pack">GitHub</a><a class="github-button" href="https://github.com/luctst/docusaurus-starter-pack" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div><div><h5>More</h5><a href="https://www.twitter.com/ltostee">Twitter</a><a href="https://github.com/luctst">Github</a><a href="https://www.lucas-tostee.com">Lucas Tostée</a></div></section><section class="copyright">Copyright © 2018 Tostée Lucas</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+              var search = docsearch({
+                
+                apiKey: '6c747720bf5224b81683f97c2da7b5e2',
+                indexName: 'luctst',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
