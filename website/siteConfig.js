@@ -11,6 +11,11 @@ const users = [
 ];
 
 const siteConfig = {
+  algolia: {
+    apiKey: '1077bef6e0ae2a88b95cf88629df5250',
+    indexName: 'luctst_docusaurus',
+  },
+  
   title: 'docusaurus starter pack' /* title for your website */,
   tagline: 'A starter pack for docusaurus project.',
   url: 'https://luctst.github.io' /* your website url */,
