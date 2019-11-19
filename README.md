@@ -1,4 +1,4 @@
-# docusaurus-starter-pack
+# docusaurus-starter-pack !!! PACKAGE NOT MAINTAINED
 *This repo is a boilerplate for quickly create an static documentation website*
 
 
